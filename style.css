@@ -1,0 +1,75 @@
+/*style de base*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.5;
+}
+/*en tete*/
+header{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+.info{
+    width: 20px;
+    }
+header h1{
+    margin: 0;
+}
+header p{
+    margin: 5px 0;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+.photo{
+    margin: 7%;
+    border-radius: 50%;
+    width: 100px;
+    overflow: hidden;
+}
+/****Toute la section****/
+section{
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+}
+section h2{
+    color: #007BFF;
+    border-bottom:2px solid #007BFF;
+    padding-bottom: 5px;videov
+}
+/*section_experience*/
+.experience{
+    margin-bottom: 15px;
+}
+.experience h3{
+    margin: 0;
+    font-size: 1.2em;
+    color: #555;
+}
+/*section_lien*/
+ul li {
+    margin: 5px 0;
+}
+/*pied de page*/
+footer{
+    background-color:cadetblue;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+/* hover ondeline*/
+a:hover{
+    text-decoration:  underline;
+    color: #f4f4f9;
+}
